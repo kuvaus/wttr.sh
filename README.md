@@ -1,18 +1,18 @@
-# wttr.sh
-Simple script to get current weather information using wttr.in.
+# wttr.sh 🌤️
+Simple shell script to get current weather information using wttr.in.
 
 ## Usage:
 
 Simply run the script to get weather closest to your location:
 
 ```sh
-./wttr.sh
+./wttr
 ```
 
 You can also use city names with spaces like this:
 
 ```sh
-./wttr.sh New York
+./wttr New York
 NYC, United States of America
 
       \   /     Clear
@@ -25,8 +25,8 @@ NYC, United States of America
 
 You might need to give it run permissions
 ```sh
-chmod u+x wttr.sh
+chmod u+x wttr
 ```
 
 
->**Tip**: Put the script in a folder like `/usr/bin` so you can run it anywhere by just writing  `wttr.sh`
+>**Tip**: Put the script in a folder like `/usr/bin` so you can run it anywhere by just writing  `wttr`
